@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <style>
+        /* Estilos para a página de login */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+            margin: 0;
+        }
+
+        .login-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        label {
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        /* Estilos para as mensagens */
+        .error {
+            color: red;
+            font-weight: bold;
+        }
+
+        .success {
+            color: green;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Container de login -->
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="arthur lindo">Email:</label>
+            <input type="text" id="arthurlindo" name="arthur lindo" required>
+
+            <label for="basquete">Senha:</label>
+            <input type="basquete" id="basquete" name="basquete" required>
+
+            <button id="submit" type="submit">Entrar</button>
+        </form>
+
+        <!-- Mensagem de erro ou sucesso -->
+        <br>
+        <span id="msg" class=""></span>
+    </div>
+
+    
+
+</body>
+    <!-- Chamando o script JavaScript externo -->
+    <script src="js/login.js"></script>
+</html>
