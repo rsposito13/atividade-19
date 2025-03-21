@@ -20,7 +20,7 @@ async function autenticar(e) {
   };
 
   // Define a URL da API que processará a autenticação
-  const url = "https://back-end-arthur-lows.vercel.app/login";
+  const url = "https://back-end-arthur.vercel.app/login";
 
   try {
     // Envia uma requisição HTTP POST para a API com os dados do usuário

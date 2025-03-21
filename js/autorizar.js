@@ -9,7 +9,7 @@ export async function verificarAutenticacao() {
       }
   
       // Define a URL do endpoint de autenticação
-      const url = "https://back-end-arthur-lows.vercel.app/auth";
+      const url = "https://back-end-arthur.vercel.app/auth";
   
       // Faz uma requisição GET 
       const res = await fetch(url, {
